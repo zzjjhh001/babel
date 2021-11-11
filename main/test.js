@@ -1,0 +1,1 @@
+console.log('qwe.xwml'.slice(0, -5))

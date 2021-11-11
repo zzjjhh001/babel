@@ -1,0 +1,1240 @@
+{
+  "pages": [
+    "pages/setupGuide/setupGuide",
+    "pages/liveForum/liveForum",
+    "pages/loginAndRegister/authentication/authentication",
+    "pages/loginAndRegister/login/login",
+    "pages/loginAndRegister/reName4Login/reName4Login",
+    "pages/loginAndRegister/quit/quit",
+    "pages/loginAndRegister/reName/reName",
+    "pages/loginAndRegister/register/register",
+    "pages/loginAndRegister/userList/userList",
+    "pages/staging/staging",
+    "pages/transferpage/transferpage",
+    "pages/receipt/receipt/receipt",
+    "pages/receipt/othereason/othereason",
+    "pages/service-package/serviceDetail/serviceDetail",
+    "pages/remind/remindTab/remindTab",
+    "pages/healthFileWebView/healthFileWebView",
+    "pages/auth/auth",
+    "pages/auth/auth-login/auth-login",
+    "pages/findDoctor/findDoctor",
+    "pages/confirmSend/confirmSend",
+    "pages/sendEnd/sendEnd",
+    "pages/index/index",
+    "pages/doctor-two-code/doctor-two-code",
+    "pages/patient-control/patient-control",
+    "pages/look-scale/look-scale",
+    "pages/specialist-team/specialist-team",
+    "pages/article-details/article-details",
+    "pages/binglisupply/binglisupply",
+    "pages/choice/choice",
+    "pages/notice/notice",
+    "pages/binglisteptwo/binglisteptwo",
+    "pages/binglistepthree/binglistepthree",
+    "pages/bingli/bingli",
+    "pages/consultation/consultation",
+    "pages/consultationdetail/consultationdetail",
+    "pages/createreport/createreport",
+    "pages/bingli-paid/bingli-paid",
+    "pages/bingli-unpaid/bingli-unpaid",
+    "pages/patient-pay/patient-pay",
+    "pages/consultationlist/consultationlist",
+    "pages/conform/conform",
+    "pages/doctorinfo/doctorinfo",
+    "pages/resultok/resultok",
+    "pages/usercenter/usercenter",
+    "pages/nopaystate/nopaystate",
+    "pages/regulation/regulation",
+    "pages/regulation4bank/regulation4bank",
+    "pages/checktel/checktel",
+    "pages/countryConsultation/countryConsultation",
+    "pages/patientList/patientList",
+    "pages/qrcode/qrcode",
+    "pages/advisoryReport/advisoryReport",
+    "pages/orderList/orderList",
+    "pages/advisorydetail/advisorydetail",
+    "pages/howtouploaddicom/howtouploaddicom",
+    "pages/adddicom/adddicom",
+    "pages/selectdicoms/selectdicoms",
+    "pages/untreatedlist/untreatedlist",
+    "pages/reftransferpage/reftransferpage",
+    "pages/toH5signin/toH5signin",
+    "pages/h5signin/h5signin",
+    "pages/uploadImgWebview/uploadImgWebview",
+    "pages/bindidcard/bindidcard",
+    "pages/accountnew/accountnew",
+    "pages/healthFileSuccess/healthFileSuccess",
+    "pages/professionalForFlow/professionalForFlow",
+    "pages/club/receipt/receipt",
+    "pages/club/othereason/othereason",
+    "pages/patientFollowUp/patientFollowUp",
+    "pages/telorderdetail/telorderdetail",
+    "pages/receptionPackage/transferTreat/transferTreat",
+    "pages/receptionPackage/refuseTransfer/refuseTransfer",
+    "pages/telnetcase/teldetail/teldetail",
+    "pages/telnetcase/tellist/tellist",
+    "pages/blankPage/blankPage",
+    "pages/bingliPackage/components/videoPlay/videoPlay",
+    "pages/receipt/offline/offline",
+    "pages/receipt/offlinelist/offlinelist",
+    "pages/weeklyTreatedListTask/weeklyTreatedListTask",
+    "pages/weeklyTreatedListPatient/weeklyTreatedListPatient"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "好大夫工作站",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#46A0F0",
+    "backgroundColor": "#f8f8f8",
+    "list": [
+      {
+        "pagePath": "pages/staging/staging",
+        "iconPath": "asset/image/tab-stage.png",
+        "selectedIconPath": "asset/image/tab-stage-selected.png",
+        "text": "工作站"
+      },
+      {
+        "pagePath": "pages/patientFollowUp/patientFollowUp",
+        "iconPath": "asset/image/tab-patient.png",
+        "selectedIconPath": "asset/image/tab-patient-selected.png",
+        "text": "病案中心"
+      },
+      {
+        "pagePath": "pages/liveForum/liveForum",
+        "iconPath": "asset/image/tab-live.png",
+        "selectedIconPath": "asset/image/tab-live-selected.png",
+        "text": "医生圈"
+      },
+      {
+        "pagePath": "pages/usercenter/usercenter",
+        "iconPath": "asset/image/tab-user.png",
+        "selectedIconPath": "asset/image/tab-user-selected.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "name": "dprelation",
+      "root": "pages/dprelationPackage/",
+      "pages": [
+        "pages/index/index",
+        "pages/otherOrdersDetail/otherOrdersDetail",
+        "pages/videoPlay/videoPlay",
+        "pages/parseVideo/parseVideo"
+      ]
+    },
+    {
+      "name": "redirectAuth",
+      "root": "package/redirectAuth/",
+      "pages": [
+        "pages/index/index"
+      ]
+    },
+    {
+      "name": "myPatientsPackage",
+      "root": "pages/myPatientsPackage/",
+      "pages": [
+        "myPatientsList/myPatientsList",
+        "patientGroups/patientGroups",
+        "search/search",
+        "chooseArticle/chooseArticle",
+        "createPatient/createPatient",
+        "treatmentNote/treatmentNote",
+        "imageList/imageList",
+        "webview/webview",
+        "setPatientLabel/setPatientLabel",
+        "chooseLabel/chooseLabel",
+        "labelManagement/labelManagement",
+        "setLabelName/setLabelName",
+        "discussDetail/discussDetail",
+        "caseFolder/caseFolder",
+        "inviteDoctor/inviteDoctor",
+        "confirmDoctor/confirmDoctor",
+        "addPatientCase/addPatientCase",
+        "chooseCaseType/chooseCaseType",
+        "remindList/remindList",
+        "quoteInquiry/quoteInquiry",
+        "searchLabel/searchLabel",
+        "searchArticle/searchArticle",
+        "dicomUpload/dicomUpload",
+        "dicomList/dicomList",
+        "caseMaterial/caseMaterial"
+      ]
+    },
+    {
+      "name": "myFollowUpPackage",
+      "root": "pages/myFollowUpPackage/",
+      "pages": [
+        "pages/followUpCenter/followUpCenter",
+        "pages/patientTecBank/patientTecBank",
+        "pages/myArticleList/myArticleList",
+        "pages/articleLibrary/articleLibrary",
+        "pages/articleSearch/articleSearch",
+        "pages/teamLibraryList/teamLibraryList",
+        "pages/articleDetail/articleDetail",
+        "pages/questionnaireLibrary/questionnaireLibrary",
+        "pages/quoteMyQue/quoteMyQue",
+        "pages/photoUpload/photoUpload",
+        "pages/reviewList/reviewList",
+        "pages/authDetail/authDetail",
+        "pages/createReview/createReview",
+        "pages/previewReview/previewReview",
+        "pages/followUpPlanDetail/followUpPlanDetail",
+        "pages/followUpPlanLibiary/followUpPlanLibiary",
+        "pages/reviewDetail/reviewDetail",
+        "pages/sendReview/sendReview",
+        "pages/myReviewList/myReviewList",
+        "pages/reviewTaskList/reviewTaskList",
+        "pages/myRemind/myRemind",
+        "pages/establishFollowUp/establishFollowUp",
+        "pages/followUpTemplateLibrary/followUpTemplateLibrary",
+        "pages/quoteMyFollowUp/quoteMyFollowUp",
+        "pages/careRemindList/careRemindList",
+        "pages/createCareRemind/createCareRemind",
+        "pages/sendCareRemind/sendCareRemind",
+        "pages/careRemindDetail/careRemindDetail",
+        "pages/myCareRemind/myCareRemind",
+        "pages/careRemindTaskList/careRemindTaskList",
+        "pages/notifications/notifications",
+        "pages/templateReviewList/templateReviewList",
+        "pages/notificationHistory/notificationHistory",
+        "pages/batchHistory/batchHistory",
+        "pages/notificationDetail/notificationDetail",
+        "pages/picNoticeDetail/picNoticeDetail",
+        "pages/choosePatients/choosePatients",
+        "pages/chooseGroup/chooseGroup",
+        "pages/chooseType/chooseType",
+        "pages/choosePicture/choosePicture",
+        "pages/chooseLabel/chooseLabel",
+        "pages/searchPatient/searchPatient",
+        "pages/chooseTeam/chooseTeam",
+        "pages/followUpRecordList/followUpRecordList",
+        "pages/followUpRecordDetail/followUpRecordDetail",
+        "pages/interrogationTable/interrogationTable",
+        "pages/followUpReviewDetail/followUpReviewDetail",
+        "pages/sendSMS/sendSMS",
+        "pages/pickCurrentHospital/pickCurrentHospital",
+        "pages/pickOtherHospital/pickOtherHospital",
+        "pages/webview/webview",
+        "pages/autoFollowUp/autoFollowUp",
+        "pages/autoFollowUpItem/autoFollowUpItem",
+        "pages/chooseReviewType/chooseReviewType",
+        "pages/taskCareRemindSend/taskCareRemindSend",
+        "pages/inviteCheck/inviteCheck",
+        "pages/inviteCheckContent/inviteCheckContent",
+        "pages/addScaleSuccess/addScaleSuccess",
+        "pages/inviteCheckSuccess/inviteCheckSuccess"
+      ]
+    },
+    {
+      "name": "authenticationPackage",
+      "root": "pages/authenticationPackage/pages/",
+      "pages": [
+        "careerinfo/careerinfo",
+        "hospitalinfo/hospitalinfo",
+        "workcard/workcard",
+        "handcard/handcard",
+        "idcard/idcard",
+        "writeidcard/writeidcard",
+        "authindex/authindex",
+        "authresult/authresult",
+        "authdone/authdone",
+        "changeuser/changeuser",
+        "docpagetwo/docpagetwo",
+        "qualification/qualification",
+        "authdistribution/authdistribution",
+        "authResultdis/authResultdis",
+        "takePhoto/takePhoto",
+        "detect-fail-page/detect-fail-page",
+        "idVerify/idVerify",
+        "verifyResult/verifyResult",
+        "completeInfo/completeInfo"
+      ]
+    },
+    {
+      "name": "prescriptionPackage",
+      "root": "pages/prescriptionPackage/",
+      "pages": [
+        "taskDetail/taskDetail",
+        "refuseReason/refuseReason",
+        "addInfo/addInfo",
+        "drugCatalogue/drugCatalogue",
+        "emptyNotice/emptyNotice",
+        "bdkyApplyDetail/bdkyApplyDetail",
+        "recipeTrue/recipeTrue",
+        "completeSelfInfoTips/completeSelfInfoTips"
+      ]
+    },
+    {
+      "name": "medicaldiary",
+      "root": "pages/medicaldiary",
+      "pages": [
+        "doctorDiaryDetail/doctorDiaryDetail",
+        "healthList/healthList"
+      ]
+    },
+    {
+      "name": "myJiaHaoPackage",
+      "root": "pages/myJiaHaoPackage/",
+      "pages": [
+        "pages/manageTeam/manageTeam",
+        "pages/manageList/manageList",
+        "pages/refuseJiahao/refuseJiahao",
+        "pages/orderDeatil/orderDeatil",
+        "pages/confirmJiahaoScope/confirmJiahaoScope",
+        "pages/jiahaoScopeDisease/jiahaoScopeDisease",
+        "pages/jiahaoScopeOther/jiahaoScopeOther",
+        "pages/jiahaoScopePatient/jiahaoScopePatient",
+        "pages/freeBookingSetting/freeBookingSetting",
+        "pages/setClinic/setClinic",
+        "pages/selectHasWay/selectHasWay",
+        "pages/openServiceIntro/openServiceIntro",
+        "pages/successRefuse/successRefuse",
+        "pages/jiahaoDateChoose/jiahaoDateChoose",
+        "pages/bookingVisitConfirm/bookingVisitConfirm",
+        "pages/jiahaoIntroduce/jiahaoIntroduce",
+        "pages/jiahaoNoticeHospital/jiahaoNoticeHospital",
+        "pages/jiahaoNoticeSetting/jiahaoNoticeSetting",
+        "pages/jiahaoNoticeMessage/jiahaoNoticeMessage",
+        "pages/noticeDetail/noticeDetail",
+        "pages/jiaHaoGuide/jiaHaoGuide",
+        "pages/refusedRecordList/refusedRecordList"
+      ]
+    },
+    {
+      "name": "myGuaHaoPackage",
+      "root": "pages/myGuaHaoPackage/",
+      "pages": [
+        "pages/selectHospital/selectHospital",
+        "pages/addHospital/addHospital",
+        "pages/commitSuccess/commitSuccess",
+        "pages/guahaoList/guahaoList",
+        "pages/patientDetail/patientDetail"
+      ]
+    },
+    {
+      "name": "moneyPackage",
+      "root": "pages/moneyPackage/",
+      "pages": [
+        "pages/cashout/cashout",
+        "pages/cashout-flow/cashout-flow"
+      ]
+    },
+    {
+      "name": "myChuChaiPackage",
+      "root": "pages/myChuChaiPackage/",
+      "pages": [
+        "pages/fieldVisit/fieldVisit",
+        "pages/orderPatientList/orderPatientList",
+        "pages/patientInfo/patientInfo",
+        "pages/cancelTravel/cancelTravel",
+        "pages/modifyTravel/modifyTravel"
+      ]
+    },
+    {
+      "name": "baodaoPackage",
+      "root": "pages/baodaoPackage/",
+      "pages": [
+        "pages/batchSelect/batchSelect",
+        "pages/receivePatient/receivePatient",
+        "pages/chooseTeam/chooseTeam",
+        "pages/scanPatientList/scanPatientList",
+        "pages/docTeamList/docTeamList",
+        "pages/searchPatient/searchPatient",
+        "pages/myMonthReport/myMonthReport"
+      ]
+    },
+    {
+      "name": "materialApplicationPackage",
+      "root": "pages/materialApplicationPackage/",
+      "pages": [
+        "pages/devidedUse/devidedUse",
+        "pages/receiveActivity/receiveActivity",
+        "pages/historyList/historyList",
+        "pages/chooseActivity/chooseActivity",
+        "pages/createSuccess/createSuccess",
+        "pages/receiveCard/receiveCard",
+        "pages/activityDetail/activityDetail",
+        "pages/qrcodeDetail/qrcodeDetail"
+      ]
+    },
+    {
+      "name": "chutingzhenPackage",
+      "root": "pages/chutingzhenPackage/",
+      "pages": [
+        "pages/chutingzhen/chutingzhen",
+        "pages/chuzhen/chuzhen",
+        "pages/tingzhen/tingzhen",
+        "pages/tingzhen-settings/tingzhen-settings",
+        "pages/setchuzhen/setchuzhen",
+        "pages/chuzhen-special/chuzhen-special",
+        "pages/chooseType/chooseType",
+        "pages/setComplate/setComplate",
+        "pages/chooseFrequency/chooseFrequency"
+      ]
+    },
+    {
+      "name": "acceptSettingPackage",
+      "root": "pages/acceptSettingPackage/",
+      "pages": [
+        "pages/docbizset/docbizset",
+        "pages/clinicNotice/clinicNotice"
+      ]
+    },
+    {
+      "name": "siteLetterPackage",
+      "root": "pages/siteLetterPackage/",
+      "pages": [
+        "pages/siteLetterList/siteLetterList",
+        "pages/siteLetterDetail/siteLetterDetail"
+      ]
+    },
+    {
+      "name": "calendarPackage",
+      "root": "pages/calendarPackage/",
+      "pages": [
+        "pages/calendar/calendar",
+        "pages/addCalendar/addCalendar",
+        "pages/authorize/authorize",
+        "pages/calendarlist/calendarlist"
+      ]
+    },
+    {
+      "name": "familydoctorPackage",
+      "root": "pages/familydoctorPackage/",
+      "pages": [
+        "sign/sign-resident/sign-resident",
+        "sign/addsign/addsign",
+        "sign/sign-detail/sign-detail",
+        "sign/sign-done-detail/sign-done-detail",
+        "sign/signlist/signlist",
+        "sign/reservationservice/reservationservice",
+        "sign/remind-renewal/remind-renewal",
+        "sign/upload-service-record/upload-service-record",
+        "pages/messageBoardList/messageBoardList",
+        "pages/searchResidentPage/searchResidentPage",
+        "pages/sendEgg/sendEgg",
+        "pages/team-work/team-work",
+        "pages/huanjiao-manage/huanjiao-manage",
+        "pages/huanjiao-search/huanjiao-search",
+        "pages/healthFileList/healthFileList",
+        "pages/healthFileEnter/healthFileEnter",
+        "pages/healthFileSearch/healthFileSearch",
+        "pages/healthFileSuppleList/healthFileSuppleList",
+        "pages/healthFileFamily/healthFileFamily",
+        "pages/healthFileSupplement/healthFileSupplement",
+        "pages/healthFileMarkGroups/healthFileMarkGroups",
+        "pages/healthFileDetail/healthFileDetail",
+        "pages/actingConsult/actingConsult",
+        "pages/submitSucceed/submitSucceed",
+        "pages/copyRecord/copyRecord",
+        "sign/teamlist/teamlist",
+        "appointment/pages/setUpAppointList/setUpAppointList",
+        "appointment/pages/setUpAppointDetails/setUpAppointDetails",
+        "appointment/pages/setUpAppointTime/setUpAppointTime",
+        "appointment/pages/appointQRCode/appointQRCode",
+        "appointment/pages/appointRecord/appointRecord",
+        "pages/healthCommunity/healthCommunity",
+        "pages/healthManagement/healthManagement",
+        "pages/filterList/filterList",
+        "pages/residentInfo/residentInfo",
+        "pages/residentHealthRecord/residentHealthRecord",
+        "pages/residentCheckupRecord/residentCheckupRecord",
+        "pages/residentCheckupDetail/residentCheckupDetail",
+        "appointment/pages/cancelReason/cancelReason",
+        "pages/createResident/createResident",
+        "remind/excessive/excessive",
+        "remind/confirmDetail/confirmDetail",
+        "remind/choosePatient/choosePatient",
+        "remind/success/success",
+        "task/tasklist/tasklist",
+        "task/taskdetail/taskdetail",
+        "task/updateRecordDoctor/updateRecordDoctor"
+      ]
+    },
+    {
+      "name": "healpalAgentPackage",
+      "root": "pages/healpalAgentPackage/",
+      "pages": [
+        "pages/clientsList/clientsList",
+        "pages/clientUnsure/clientUnsure",
+        "pages/clientSigned/clientSigned",
+        "pages/webview/webview",
+        "pages/consultationDocList/consultationDocList",
+        "pages/docPost/docPost",
+        "pages/success/success",
+        "pages/recordList/recordList",
+        "pages/exclusive/exclusive",
+        "pages/exclusiveSuccess/exclusiveSuccess",
+        "pages/jiuzhenguoSuccess/jiuzhenguoSuccess"
+      ]
+    },
+    {
+      "name": "huizhenPackage",
+      "root": "pages/huizhenPackage/",
+      "pages": [
+        "pages/clinicdetail/clinicdetail"
+      ]
+    },
+    {
+      "name": "surgeryPackage",
+      "root": "pages/surgeryPackage/",
+      "pages": []
+    },
+    {
+      "name": "netcasePackage",
+      "root": "pages/netcasePackage/",
+      "pages": [
+        "giftDesc/giftDesc",
+        "giftDetail/giftDetail",
+        "myGift/myGift",
+        "noSupport/noSupport",
+        "aiskin/photograph/photograph",
+        "aiskin/details/details",
+        "pages/conclusionLoading/conclusionLoading",
+        "pages/inquiryconclusion/inquiryconclusion",
+        "pages/inquiryconclusionDetail/inquiryconclusionDetail",
+        "pages/inquiryconclusionEdit/inquiryconclusionEdit",
+        "pages/subcaseSuccess/subcaseSuccess",
+        "pages/moreConclusion/moreConclusion",
+        "pages/canNotConclusion/canNotConclusion",
+        "pages/primaryDiagnosis/primaryDiagnosis",
+        "pages/detailProcess/detailProcess",
+        "pages/suggest4Other/suggest4Other",
+        "pages/conclusionComplete/conclusionComplete",
+        "pages/conclusionAffirm/conclusionAffirm",
+        "active/tranferPage/tranferPage",
+        "teamList/teamList",
+        "confirmConsultScope/confirmConsultScope",
+        "consultScopePatient/consultScopePatient",
+        "consultScopeDisease/consultScopeDisease",
+        "consultScopeOther/consultScopeOther",
+        "settingList/settingList",
+        "pages/postList/postList",
+        "pages/recordList/recordList",
+        "pages/conclusionDetail/conclusionDetail",
+        "pages/oneanswer/oneanswer"
+      ]
+    },
+    {
+      "name": "telnetcasePackage",
+      "root": "pages/telnetcasePackage/",
+      "pages": [
+        "tellist/tellist",
+        "teldetail/teldetail",
+        "confirmConsultScope/confirmConsultScope",
+        "settingList/settingList",
+        "consultScopeDisease/consultScopeDisease",
+        "consultScopeOther/consultScopeOther",
+        "consultScopePatient/consultScopePatient"
+      ]
+    },
+    {
+      "name": "dicomPackage",
+      "root": "pages/dicomPackage/",
+      "pages": [
+        "viewImage/viewImage"
+      ]
+    },
+    {
+      "name": "nethospitalPackage",
+      "root": "pages/nethospitalPackage/",
+      "pages": [
+        "viewVideo/viewVideo",
+        "noSupport/noSupport",
+        "noSupportForVideoCard/noSupportForVideoCard"
+      ]
+    },
+    {
+      "name": "receiptPackage",
+      "root": "pages/receiptPackage/",
+      "pages": [
+        "telReceipt/telReceipt",
+        "predocReceipt/predocReceipt",
+        "privateTel/privateTel",
+        "common/checklistTip/checklistTip",
+        "common/commonWords/commonWords",
+        "refuseReason/refuseReason",
+        "needMoreInfo/needMoreInfo",
+        "success/success"
+      ]
+    },
+    {
+      "name": "clubPackage",
+      "root": "pages/clubPackage/",
+      "pages": []
+    },
+    {
+      "name": "docInformationPackage",
+      "root": "pages/docInformationPackage/pages",
+      "pages": [
+        "docInfo/docInfo",
+        "header/header",
+        "baseinfo/baseinfo",
+        "career/career",
+        "good/good",
+        "partner/partner",
+        "place/place",
+        "current/current",
+        "record/record",
+        "docWorKard/docWorKard",
+        "license/license",
+        "addPlace/addPlace",
+        "searchHospital/searchHospital",
+        "workpermit/workpermit"
+      ]
+    },
+    {
+      "name": "articlePackage",
+      "root": "pages/articlePackage/pages",
+      "pages": [
+        "achievement/achievement"
+      ]
+    },
+    {
+      "name": "assisPackage",
+      "root": "pages/assisPackage/",
+      "pages": [
+        "pages/findAssistant/findAssistant",
+        "pages/feedback/feedback",
+        "pages/judge/judge",
+        "pages/call/call",
+        "pages/patientFeed/patientFeed"
+      ]
+    },
+    {
+      "name": "serviceStarPackage",
+      "root": "pages/serviceStarPackage/",
+      "pages": [
+        "aboutServiceStar/aboutServiceStar",
+        "aboutPatientManagement/aboutPatientManagement",
+        "serviceStar/serviceStar",
+        "serviceStarRank/serviceStarRank"
+      ]
+    },
+    {
+      "name": "beautyPackage",
+      "root": "pages/beautyPackage/",
+      "pages": [
+        "entrance/entrance",
+        "beautyWebView/beautyWebView"
+      ]
+    },
+    {
+      "name": "mySickManage",
+      "root": "pages/mySickManage/",
+      "pages": [
+        "pages/handleLeaveHos/handleLeaveHos",
+        "pages/arrangePatientList/arrangePatientList",
+        "pages/waitArrangePatientList/waitArrangePatientList",
+        "pages/createPatient/createPatient",
+        "pages/teamSelect/teamSelect",
+        "pages/partnerHospital/search/search",
+        "pages/dischargedPatient/dischargedPatient",
+        "pages/surgeryManagement/surgeryManagement",
+        "pages/admission/admission",
+        "pages/tubeBedDoctor/tubeBedDoctor",
+        "pages/addTubeBedDoctor/addTubeBedDoctor",
+        "pages/tubeBedDoctorInfo/tubeBedDoctorInfo",
+        "pages/sickIntroduce/sickIntroduce",
+        "pages/doctorSickManage/doctorSickManage",
+        "pages/selectSurgeryDoctor/selectSurgeryDoctor",
+        "pages/hosSickManage/hosSickManage",
+        "pages/sickDetailEmpty/sickDetailEmpty",
+        "pages/sickDetailOther/sickDetailOther",
+        "pages/newSickbedManage/newSickbedManage",
+        "pages/operatePlanList/operatePlanList",
+        "pages/sickNoticeInfos/sickNoticeInfos",
+        "pages/setNoticeInfos/setNoticeInfos",
+        "pages/addNoticePatient/addNoticePatient",
+        "pages/signHospitalization/signHospitalization",
+        "pages/signHospitalizationConfirm/signHospitalizationConfirm",
+        "pages/selectTeamMembers/selectTeamMembers",
+        "pages/selectHistory4Notice/selectHistory4Notice",
+        "pages/noticeInfos2Confirm/noticeInfos2Confirm",
+        "pages/selectNoticeWay/selectNoticeWay",
+        "pages/noticeAudio/noticeAudio",
+        "pages/noticeSuccess/noticeSuccess",
+        "pages/hospitalPatientsList/hospitalPatientsList",
+        "pages/joinArrangeSucc/joinArrangeSucc",
+        "pages/search/search",
+        "pages/signHospitalizationSearch/signHospitalizationSearch",
+        "pages/signHospitalizationSuccess/signHospitalizationSuccess",
+        "pages/leaveHospital/leaveHospital",
+        "pages/leaveHospitalConfirm/leaveHospitalConfirm",
+        "pages/leaveHospitalSuccess/leaveHospitalSuccess",
+        "pages/changeTeam2Confirm/changeTeam2Confirm",
+        "pages/freeCommunication2Confirm/freeCommunication2Confirm",
+        "pages/teamSelect4Hospitalization/teamSelect4Hospitalization",
+        "pages/joinNewTeamArrangeSucc/joinNewTeamArrangeSucc",
+        "pages/hospitalizationManage/hospitalizationManage",
+        "pages/singleLeaveHospitalSuccess/singleLeaveHospitalSuccess"
+      ]
+    },
+    {
+      "name": "emrPackage",
+      "root": "pages/emrPackage/pages/",
+      "pages": [
+        "docsearch/docsearch",
+        "privateTel/privateTel",
+        "patientmanage/patientmanage",
+        "infoconfirm/infoconfirm",
+        "mainsuit/mainsuit",
+        "manifestation/manifestation",
+        "diagnose/diagnose",
+        "physical/physical",
+        "operationfirst/operationfirst",
+        "operationsecond/operationsecond",
+        "mainjudge/mainjudge",
+        "docgroup/docgroup",
+        "enterance/enterance",
+        "patientinfo/patientinfo",
+        "managerhome/managerhome",
+        "operatelist/operatelist",
+        "templatelist/templatelist"
+      ]
+    },
+    {
+      "name": "timPackage",
+      "root": "pages/timPackage/",
+      "pages": [
+        "tim/tim",
+        "pages/addPhrase/addPhrase",
+        "pages/phraseList/phraseList",
+        "pages/teamList/teamList",
+        "pages/editSort/editSort",
+        "pages/wordManage/wordManage",
+        "pages/commonWords/commonWords",
+        "pages/newWord/newWord"
+      ]
+    },
+    {
+      "name": "annualPackage",
+      "root": "pages/annualPackage/",
+      "pages": [
+        "pages/mainvenue/mainvenue",
+        "pages/annualTheme/annualTheme",
+        "pages/videoPlay/videoPlay",
+        "pages/redpack/index",
+        "pages/redpackdetail/index",
+        "pages/enrollresult/enrollresult",
+        "pages/schedule/schedule",
+        "pages/bannerDetail/bannerDetail",
+        "pages/invitation/invitation",
+        "pages/invitationList/invitationList",
+        "pages/bombDetail/index",
+        "pages/bombHistory/index"
+      ]
+    },
+    {
+      "name": "bingchengPackage",
+      "root": "pages/bingchengPackage/pages/",
+      "pages": [
+        "bingchengDetail/index",
+        "bingchengList/index",
+        "comrecord/comrecord",
+        "bingchTrDe/bingchTrDe",
+        "bingchFirstDe/bingchFirstDe",
+        "bclist/index"
+      ]
+    },
+    {
+      "name": "bingan",
+      "root": "pages/bingan/",
+      "pages": [
+        "pages/caseMaterial/caseMaterial",
+        "pages/categoryList/categoryList",
+        "pages/caseMaterialForType/caseMaterialForType",
+        "pages/caseMaterialForEdit/caseMaterialForEdit",
+        "pages/preview-media-desc/index",
+        "pages/doctorcircleRelationship/doctorcircleRelationship"
+      ]
+    },
+    {
+      "name": "payment",
+      "root": "page/payment/",
+      "pages": [
+        "payment"
+      ]
+    },
+    {
+      "name": "coupon",
+      "root": "page/coupon/",
+      "pages": [
+        "coupon"
+      ]
+    },
+    {
+      "name": "blacklist",
+      "root": "page/blacklist/",
+      "pages": [
+        "blacklist"
+      ]
+    },
+    {
+      "name": "commentDocPackage",
+      "root": "pages/commentDocPackage/pages",
+      "pages": [
+        "commentlist/commentlist",
+        "assessment/assessment"
+      ]
+    },
+    {
+      "name": "docGiveCupPackage",
+      "root": "pages/docGiveCupPackage/pages",
+      "pages": [
+        "authActive/aythActive"
+      ]
+    },
+    {
+      "name": "mdeicalReportPackage",
+      "root": "pages/medicalReportPackage/",
+      "pages": [
+        "pages/medicalReport/medicalReport"
+      ]
+    },
+    {
+      "name": "minishopPackage",
+      "root": "pages/minishopPackage/pages",
+      "pages": [
+        "bindresult/bindresult"
+      ]
+    },
+    {
+      "name": "bingliPackage",
+      "root": "pages/bingliPackage/pages",
+      "pages": [
+        "allMedical/allMedical"
+      ]
+    },
+    {
+      "name": "livePackage",
+      "root": "pages/livePackage",
+      "pages": [
+        "pages/uploadToLogin/uploadToLogin",
+        "pages/uploadMessageFile/uploadMessageFile",
+        "pages/uploadMessageFileSuccess/uploadMessageFileSuccess",
+        "pages/living/living"
+      ]
+    },
+    {
+      "name": "diaryPackage",
+      "root": "pages/diaryPackage/pages",
+      "pages": [
+        "caseDetail/caseDetail",
+        "chooseDiaryDate/chooseDiaryDate",
+        "initDiary/initDiary",
+        "chooseChiefDoctor/chooseChiefDoctor",
+        "chooseDisease/chooseDisease",
+        "createDiaryBook/createDiaryBook",
+        "caseList/caseList",
+        "editCase/editCase",
+        "caseBook/caseBook",
+        "chooseTeam/chooseTeam",
+        "diaryTitle/diaryTitle",
+        "diaryGuide/diaryGuide",
+        "diaryLabel/diaryLabel",
+        "diaryWebView/diaryWebView",
+        "addShuZhong/addShuZhong"
+      ]
+    },
+    {
+      "name": "faceDetectPackage",
+      "root": "pages/faceDetectPackage",
+      "pages": [
+        "pages/doc-guide/doc-guide",
+        "pages/face-recog/face-recog",
+        "pages/face-result/face-result",
+        "miniprogram_npm/@hmp/h-facedetect/pages/start-up/start-up",
+        "miniprogram_npm/@hmp/h-facedetect/pages/take-photo/take-photo",
+        "miniprogram_npm/@hmp/h-facedetect/pages/detect-result/detect-result",
+        "miniprogram_npm/@hmp/h-facedetect/pages/idcard-input/idcard-input"
+      ]
+    },
+    {
+      "name": "previewImagePackage",
+      "root": "pages/previewImagePackage",
+      "pages": [
+        "miniprogram_npm/@hmp/h-previewimage/pages/previewImage/previewImage"
+      ]
+    },
+    {
+      "name": "commonPackage",
+      "root": "pages/commonPackage/pages",
+      "pages": [
+        "index/index"
+      ]
+    },
+    {
+      "name": "liveRoomProcess",
+      "root": "pages/liveRoom",
+      "pages": [
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/selectAnnouncer/selectAnnouncer",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/publishNotice/publishNotice",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/roomList/roomList",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/publishSuccess/publishSuccess",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/noticeConfirm/noticeConfirm",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/acceptInvitation/acceptInvitation",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/broadcastManage/index",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/roomDetail/roomDetail",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/createSuccess/createSuccess",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/manageRoom/manageRoom",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/InviteAnchor/InviteAnchor",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/broadCast/index",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/noticePoster/noticePoster",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/videoPlay/index",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/checkAuthToLogin/checkAuthToLogin",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/createOrEditRoom/createOrEditRoom",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/roomsDataStatistics/roomsDataStatistics",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/roomMessage/roomMessage",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/shareTransfer/shareTransfer",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/selectLabels/selectLabels",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/postersTransfer/index",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/broadCastList/index",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/liveNotice/liveNotice",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/appAuth/appAuth",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/draftList/draftList",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/share/share",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/setentry/setentry",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/systemmsg/systemmsg",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/commentmsg/commentmsg",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/informationentry/informationentry",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/adminClass/adminClass",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/downqrcode/downqrcode",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/giftdetail/giftdetail",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/commentdetail/commentdetail",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/delBroadcast/index",
+        "miniprogram_npm/@hmp/quoteArticle/pages/articleDetail/articleDetail",
+        "miniprogram_npm/@hmp/quoteArticle/pages/articleSearch/articleSearch",
+        "miniprogram_npm/@hmp/quoteArticle/pages/articleLibrary/articleLibrary",
+        "miniprogram_npm/@hmp/quoteArticle/pages/selectDepart/selectDepart",
+        "miniprogram_npm/@hmp/quoteArticle/pages/selectHealth/index",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/freeServiceList/freeServiceList",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/contentSyncHealth/contentSyncHealth",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/videoSegmentPlayer/videoSegmentPlayer",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/liveDataDetail/liveDataDetail",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/shortContentReleaseSuccess/shortContentReleaseSuccess",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/assistantLive/assistantLive",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/informAssistant/informAssistant",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/liveList/liveList",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/liveRegion/liveRegion",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/assistDetail/assistDetail",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/liveDiagnosis/liveDiagnosis",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/editPost/editPost",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/articleCaseContentList/articleCaseContentList",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/postDetail/postDetail",
+        "miniprogram_npm/@hmp/liveRoomProcess/pages/patientFriendDiscussionList/patientFriendDiscussionList"
+      ]
+    },
+    {
+      "name": "preAsk",
+      "root": "package/preAsk/",
+      "pages": [
+        "pages/index/index",
+        "pages/inquiry/inquiry",
+        "pages/caseMaterial/caseMaterial",
+        "pages/commonWords/commonWords",
+        "pages/orderPool/orderPool",
+        "pages/receiveOrder/receiveOrder",
+        "pages/awardIntroduction/awardIntroduction",
+        "pages/submitCase/submitCase",
+        "pages/submitSuccess/submitSuccess",
+        "pages/caseDetail/caseDetail",
+        "pages/imMsgList/imMsgList",
+        "pages/addWord/addWord",
+        "pages/interflowRecord/interflowRecord",
+        "pages/putback/putback",
+        "pages/imgList/imgList",
+        "pages/receiveOrder4pc/receiveOrder4pc"
+      ]
+    },
+    {
+      "name": "refundPackage",
+      "root": "pages/refundPackage/",
+      "pages": [
+        "pages/refundOrders/refundOrders",
+        "pages/refundReason/refundReason",
+        "pages/refundSuccess/refundSuccess"
+      ]
+    },
+    {
+      "name": "bankCardPackage",
+      "root": "pages/bankCardPackage",
+      "pages": [
+        "pages/checkPage/checkPage",
+        "pages/bankCardMy/bankCardMy",
+        "pages/taxInfo/taxInfo",
+        "pages/bankCardAdd/bankCardAdd",
+        "pages/submitSuccess/submitSuccess",
+        "pages/dangerTips/dangerTips",
+        "pages/submitError/submitError",
+        "pages/faceDetectTargetPage/faceDetectTargetPage",
+        "pages/bindCardTips/bindCardTips",
+        "pages/dangerTipsBefore/dangerTipsBefore"
+      ]
+    },
+    {
+      "name": "myMenZhenPackage",
+      "root": "pages/myMenZhenPackage/pages",
+      "pages": [
+        "menzhenCenter/menzhenCenter",
+        "visitDetail/visitDetail",
+        "appointmentManage/appointmentManage",
+        "manageTeam/manageTeam",
+        "appointmentSetting/appointmentSetting",
+        "selectHospitalFaculty/selectHospitalFaculty",
+        "selectOpenTime/selectOpenTime",
+        "promiseBookingIntroduce/promiseBookingIntroduce",
+        "promiseBookingSetting/promiseBookingSetting",
+        "myAppointmentPatients/myAppointmentPatients",
+        "promiseBookingDetail/promiseBookingDetail",
+        "refusePromiseBooking/refusePromiseBooking",
+        "successPromiseRefuse/successPromiseRefuse"
+      ]
+    },
+    {
+      "name": "annualAnswer",
+      "root": "package/annualAnswer/",
+      "pages": [
+        "pages/answerSubmit/answerSubmit",
+        "pages/answerResult/answerResult",
+        "pages/questionList/questionList"
+      ]
+    },
+    {
+      "name": "tel",
+      "root": "package/tel",
+      "pages": [
+        "pages/tel/tel",
+        "pages/transformPage/transformPage"
+      ]
+    },
+    {
+      "name": "videoConference",
+      "root": "package/videoConference/",
+      "pages": [
+        "pages/index/index"
+      ]
+    },
+    {
+      "name": "bingLi",
+      "root": "package/bingLi/",
+      "pages": [
+        "pages/patientBMIList/patientBMIList"
+      ]
+    },
+    {
+      "name": "doctorUnionApply",
+      "root": "package/doctorUnionApply/",
+      "pages": [
+        "pages/myService/myService",
+        "pages/doctorService/doctorService",
+        "pages/addLayout/addLayout",
+        "pages/serviceList/serviceList",
+        "pages/platformService/platformService",
+        "pages/myRefCop/index"
+      ]
+    },
+    {
+      "name": "doctorUnionProcess",
+      "root": "package/doctorUnionProcess/",
+      "pages": [
+        "pages/index/index",
+        "pages/chooseService/index",
+        "pages/chooseTeamOrDoctor/index",
+        "pages/serviceCard/index",
+        "pages/cooperateSuccess/cooperateSuccess",
+        "pages/uncooperativeReason/uncooperativeReason",
+        "pages/mismatchComplete/mismatchComplete",
+        "pages/addCooperateService/addCooperateService",
+        "pages/modifySerivceInfo/modifySerivceInfo",
+        "pages/setServiceInfo/setServiceInfo",
+        "pages/oneselfProvideService/oneselfProvideService",
+        "pages/serviceCardFinalStep/index",
+        "pages/recordList/index",
+        "pages/uncooperativeReasonSubmit/uncooperativeReasonSubmit"
+      ]
+    },
+    {
+      "name": "doctorInfoSettings",
+      "root": "package/doctorInfoSettings/",
+      "pages": [
+        "pages/experience/edit",
+        "pages/experience/list",
+        "pages/profile/profile",
+        "pages/editor/editor",
+        "pages/idcard/idcard",
+        "pages/daily/daily",
+        "pages/editdaily/editdaily",
+        "pages/welcome/welcome",
+        "pages/refusedaily/refusedaily",
+        "pages/dailyDetail/index",
+        "pages/newsList/index"
+      ]
+    },
+    {
+      "name": "cooperatePharmacyPackage",
+      "root": "package/cooperatePharmacy/",
+      "pages": [
+        "pages/doctorTeam/doctorTeam",
+        "pages/doctorTeamIsPharmacy/doctorTeamIsPharmacy",
+        "pages/goodsSearch/goodsSearch",
+        "pages/pharmacyDetail/pharmacyDetail",
+        "pages/addInviteType/addInviteType",
+        "pages/addMerchantsInfo/addMerchantsInfo",
+        "pages/addLinkmanStatus/addLinkmanStatus",
+        "pages/addMerchantsList/addMerchantsList",
+        "pages/addInviteSuccess/addInviteSuccess",
+        "pages/addPharmacySearch/addPharmacySearch",
+        "pages/add-Pharma/addProviderWay/addProviderWay",
+        "pages/add-Pharma/otherTeamPharma/otherTeamPharma",
+        "pages/myDrugStore/myDrugStore"
+      ]
+    },
+    {
+      "name": "tgCatalogPackage",
+      "root": "package/tgCatalog/",
+      "pages": [
+        "pages/selectDocTeam/index",
+        "pages/tgCatalog/index",
+        "pages/drugClassification/index",
+        "pages/searchDocAddedTg/index",
+        "pages/tgDetail/index",
+        "pages/specifyPharmacy/index",
+        "pages/addTg/index",
+        "pages/searchTg/index",
+        "pages/medicalServiceFee/index"
+      ]
+    },
+    {
+      "name": "doctorCirclePackage",
+      "root": "package/doctorCircle/",
+      "pages": [
+        "doctorCircleProcess/pages/doctorCircleList/doctorCircleList",
+        "doctorCircleProcess/pages/createOrEditDocCircle/createOrEditDocCircle",
+        "doctorCircleProcess/pages/selectLabels/selectLabels",
+        "doctorCircleProcess/pages/createSuccess/createSuccess",
+        "doctorCircleProcess/pages/doctorCircleDetail/doctorCircleDetail",
+        "doctorCircleProcess/pages/broadCastList/index",
+        "doctorCircleProcess/pages/broadCast/index",
+        "doctorCircleProcess/pages/publishSuccess/publishSuccess",
+        "doctorCircleProcess/pages/broadcastManage/index",
+        "doctorCircleProcess/pages/InviteAnchor/InviteAnchor",
+        "doctorCircleProcess/pages/roomsDataStatistics/roomsDataStatistics",
+        "doctorCircleProcess/pages/setentry/setentry",
+        "doctorCircleProcess/pages/share/share",
+        "doctorCircleProcess/pages/downqrcode/downqrcode",
+        "doctorCircleProcess/pages/noticePoster/noticePoster",
+        "doctorCircleProcess/pages/informationentry/informationentry",
+        "doctorCircleProcess/pages/commentmsg/commentmsg",
+        "doctorCircleProcess/pages/systemmsg/systemmsg",
+        "doctorCircleProcess/pages/publishNotice/publishNotice",
+        "doctorCircleProcess/pages/selectAnnouncer/selectAnnouncer",
+        "doctorCircleProcess/pages/noticeConfirm/noticeConfirm",
+        "doctorCircleProcess/pages/liveNotice/liveNotice",
+        "doctorCircleProcess/pages/delBroadcast/index",
+        "doctorCircleProcess/pages/adminClass/adminClass",
+        "doctorCircleProcess/pages/acceptInvitation/acceptInvitation",
+        "doctorCircleProcess/pages/videoPlay/index",
+        "doctorCircleProcess/pages/postersTransfer/index",
+        "doctorCircleProcess/pages/fansList/fansList",
+        "doctorCircleProcess/pages/doctorYellowPage/doctorYellowPage",
+        "doctorCircleProcess/pages/searchList/searchList",
+        "doctorCircleProcess/pages/selectType/selectType",
+        "doctorCircleProcess/pages/leadDoctorList/leadDoctorList",
+        "doctorCircleProcess/pages/searchDoctorCircle/searchDoctorCircle",
+        "doctorCircleProcess/pages/circleHall/circleHall",
+        "doctorCircleProcess/pages/myCreation/index",
+        "doctorCircleProcess/pages/activityList/activityList",
+        "doctorCircleProcess/pages/activityList4lable/activityList",
+        "doctorCircleProcess/pages/broadCastListForUser/index",
+        "doctorCircleProcess/pages/delBroadcastForUser/index",
+        "doctorCircleProcess/pages/liveModular/liveModular",
+        "doctorCircleProcess/pages/liveForumSingle/liveForumSingle",
+        "doctorCircleProcess/pages/personalConter/index",
+        "doctorCircleProcess/pages/favOrCoList/favOrCoList",
+        "doctorCircleProcess/pages/discussList/discussList",
+        "doctorCircleProcess/pages/focusList/focusList",
+        "article/pages/articleDetail/articleDetail",
+        "article/pages/quoteDetail/quoteDetail",
+        "article/pages/articleDepartment/articleDepartment",
+        "article/pages/articleLibrary/articleLibrary",
+        "article/pages/firstPublish/firstPublish",
+        "article/pages/quoteMore/quoteMore",
+        "article/pages/commentdetail/commentdetail",
+        "article/pages/myArticle/myArticle",
+        "article/pages/publishInfo/publishInfo",
+        "article/pages/articleSearch/articleSearch",
+        "article/pages/articleDetailForShare/articleDetailForShare",
+        "case/pages/setCasePurpose/index",
+        "case/pages/setForewordTitle/index",
+        "case/pages/editCaseContent/index",
+        "case/pages/setCaseFaculties/index",
+        "case/pages/facultiesSelect/index",
+        "case/pages/publishSuccess/index",
+        "case/pages/casedetail/casedetail",
+        "case/pages/optimumcomment/optimumcomment",
+        "case/pages/endcomment/endcomment",
+        "case/pages/commentdetail/commentdetail",
+        "live/pages/living/living"
+
+      ]
+    },
+    {
+      "name": "conclusionPackage",
+      "root": "package/conclusionPackage/",
+      "pages": [
+        "pages/recordList/index",
+        "pages/caseInfo/index",
+        "pages/suggestion/index",
+        "pages/appease/index",
+        "pages/audioReference/index",
+        "pages/preview/index",
+        "pages/inquiryCaseInfo/index",
+        "pages/inquiryCaseInfoEdit/index",
+        "pages/postList/postList"
+      ]
+    },
+    {
+      "name": "recipeQualityPackage",
+      "root": "package/recipeQuality/",
+      "pages": [
+        "pages/qualityQuery/qualityQuery",
+        "pages/dialog/index"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/staging/staging": {
+      "network": "all",
+      "packages": []
+    },
+    "pages/transferpage/transferpage": {
+      "network": "all",
+      "packages": [
+        "prescriptionPackage"
+      ]
+    }
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.2.2",
+      "provider": "wx069ba97219f66d99"
+    },
+    "captcha": {
+      "version": "1.3.0",
+      "provider": "wxefa63d84fe9f64a2"
+    }
+  },
+  "debug": true,
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
